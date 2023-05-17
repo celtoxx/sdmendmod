@@ -1,0 +1,109 @@
+SourabhPawar233060
+
+
+Introduction
+
+Purpose: The purpose of the online ticket booking system is to provide a convenient and efficient platform for users to book tickets for various events or services.
+
+Scope: The system will allow users to browse available events, select seats, make payments, and receive e-tickets with or without login. It will also provide an administrative interface for managing events, venues, and user bookings.
+
+  
+
+
+   1. System Architecture: A web-based application built using a three-tier architecture (presentation layer, application layer, and data layer).
+
+   2. System Interfaces: The system will have interfaces for users, administrators, and external payment gateways, easy to book tickets.
+
+   
+
+Functional Requirements
+
+   1. User Registration and Login
+
+      - Users should be able to register an account with the system by providing their details.
+
+
+
+   2. Event Management
+
+      - Administrators should be able to add, update, and delete events.
+
+
+
+   3. Ticket Booking
+      - Users should be able to book ticket without any login and and deliver ticket id qr code on registered number or wemail
+
+      - Users should be able to browse available events and view event details.
+
+      - Users should be able to select seats and specify the quantity of tickets.
+	
+      - Users should be able to cancel tickets within time.
+
+
+
+   4. Payment Processing
+
+      - The system should integrate with external payment gateways to process payments securely.
+
+      - Payment options should include credit/debit card, net banking, and mobile wallets.
+
+   5. Ticket Generation
+
+      - Once payment is successful, the system should generate e-tickets containing event details and a unique booking reference.
+
+      - E-tickets should be emailed to the user and stored in their account for future reference.
+
+   6. Booking Management
+
+      - Administrators should be able to view and manage user bookings and keep control over everything.
+
+      - Administrators should be able to cancel or refund tickets if required.
+
+ 
+
+
+
+System Models
+
+-Use Case Diagram
+-Uml diagrams
+-Data flow Diagram
+-agile model
+-spiral model
+
+  
+
+
+ER diagram(Entity Relationship Diagram)
+
+Event
+
+   tables :eventID, title, description, date, time, venueID, availableSeats
+
+   Relationships: One-to-many with Booking
+
+Venue
+
+   Tables: venueID, name, address
+
+   Relationship: One-to-many with Event
+User
+
+  Tables:  userID, name, email, password
+
+  Relationship: One-to-many with Booking
+
+Booking
+
+    Tabkes: bookingID, userID, eventID, numTickets
+
+    Relatonships: One to Many with User and Event
+
+Payment
+
+   tables: paymentID, bookingID, amount, paymentDate
+
+   Relationships: One-to-one with Booking
+
+
+

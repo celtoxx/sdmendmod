@@ -1,0 +1,42 @@
+ER diagram(Entity Relationship Diagram).sql file
+
+Event
+
+   tables :eventID, title, description, date, time, venueID, availableSeats
+
+   Relationships: One-to-many with Booking
+
+Venue
+
+   Tables: venueID, name, address
+
+   Relationship: One-to-many with Event
+User
+
+  Tables:  userID, name, email, password
+
+  Relationship: One-to-many with Booking
+
+Booking
+
+    Tabkes: bookingID, userID, eventID, numTickets
+
+    Relatonships: One to Many with User and Event
+
+Payment
+
+   tables: paymentID, bookingID, amount, paymentDate
+
+   Relationships: One-to-one with Booking
+
+create table payments( paymentid varchar(20) primary key, bookingId  int foreign key references bookingdetails(bookingid) ,bkingdate date,Amount double)
+
+
+create table  Bookingdetails(booking id int primary key ,userid varchar(20),eventid int,numberoftickets int)
+
+
+
+create table userdetails(email varchar(20),mobile Bigint,name varchar(20),password varchar(20))
+
+
+create table eventdetails(eventid int primary key,title varchar(20),venue varchar(20),genre venue varchar(20),availbleseats int )

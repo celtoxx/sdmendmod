@@ -1,0 +1,20 @@
+The bussiness model is dependent on revenue model. The customer should be able to book tickets hassle free manner, We will be intermediary to event organisers and customers. The entertainment sector in india has huge demand and has huge market as there is growth in number of middle class family there will be ever increasing demand. There are already huge players in market such as bookmyshow, paytm, cinebook etc but there is still void in the reach of those platform which will be filled with our significan marketing strategy and product lauching with exciting offers and advertisements over youtube, spotify, and banners outside the movie theatre . In initail phases there will be minimum commission taken from users.
+
+Non-Functional Requirements
+
+   1. Usability: The system should have an simple and interestingly eyecatching user interface that is easy to navigate and understand.
+
+   2. Performance: The system should be proactive,responsive and handle concurrent user requests efficiently.
+
+   3. Security: The system should implement secure authentication, protect user data, and use encryption for sensitive information.
+                should be prone to fishing and attacks
+
+   4. Reliability: The system should be available 24/7 with minimal downtime for maintainence.
+
+   5. Scalability: The system should be scalable to handle a growing number of users and events.
+
+   6. Compatibility: compatible with major web browsers and mobile devices.
+
+
+   7. Maintainability: The system should be easy to maintain and support future enhancements and deployments.
+User should be login 
