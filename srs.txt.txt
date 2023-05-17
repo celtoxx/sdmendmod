@@ -3,7 +3,7 @@ SourabhPawar233060
 
 Introduction
 
-Purpose: The purpose of the online ticket booking system is to provide a convenient and efficient platform for users to book tickets for various events or services.
+Purpose: The purpose of the online ticket booking system for airplan,trains and movies is to provide a convenient and efficient platform for users to book tickets for various events or services.
 
 Scope: The system will allow users to browse available events, select seats, make payments, and receive e-tickets with or without login. It will also provide an administrative interface for managing events, venues, and user bookings.
 
